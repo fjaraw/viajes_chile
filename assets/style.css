@@ -1,0 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
+nav {
+    background-color: rgb(36,154,166);
+}
+.container {
+    position: relative;
+}
+#inicio, #quienes-somos, #destacado, #contacto {
+    min-height: 25rem;
+}
+footer {
+    background-color: rgb(13,202,240);
+}
