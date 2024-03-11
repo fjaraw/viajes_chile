@@ -10,6 +10,12 @@ nav {
 #inicio, #quienes-somos, #destacado, #contacto {
     min-height: 25rem;
 }
+/*destacado*/
+#destacado {
+    background-color: black;
+    padding: 3rem;
+    color: aqua;
+}
 /*contacto*/
 #contacto {
     background-color: black;
