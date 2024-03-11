@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 nav {
-    background-color: rgb(36,154,166);
+    background-color: transparent;
 }
 .container {
     position: relative;
@@ -10,6 +10,20 @@ nav {
 #inicio, #quienes-somos, #destacado, #contacto {
     min-height: 25rem;
 }
+/*contacto*/
+#contacto {
+    background-color: black;
+    padding: 3rem;
+    color: white;
+}
+/*footer*/
 footer {
     background-color: rgb(13,202,240);
+}
+footer h3 {
+    color: white;
+}
+footer i {
+    color: white;
+    font-size: 30px;
 }
