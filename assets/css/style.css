@@ -1,0 +1,91 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+nav {
+    background-color: transparent;
+}
+
+/*navbar*/
+.navbar-brand {
+    color: white;
+}
+.navbar-brand img {
+    width: 20px;
+}
+.navbar a.nav-link {
+    color: white;
+}
+
+.container {
+    position: relative;
+}
+
+/*
+#inicio, #quienes-somos, #destacado, #contacto {
+    min-height: 25rem;
+}*/
+
+h3 {
+    font-size: 500;
+}
+
+/*carrusel*/
+/*quienes somos*/
+#quienes-somos {
+    padding: 2rem;
+}
+
+.barra {
+    background-color: rgb(13, 202, 240);
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/*destacado*/
+#destacado {
+    padding: 2rem;
+}
+
+#destacado .card-body {
+    background-color: rgb(13, 202, 240);
+    color: white;
+}
+
+#destacado .card-img-top {
+    width: auto;
+    height: 10rem;
+}
+
+/*contacto*/
+#contacto {
+    background-color: black;
+    padding: 3rem;
+    color: white;
+}
+
+/*footer*/
+footer {
+    padding: 2rem;
+    background-color: rgb(13, 202, 240);
+}
+/*
+footer h3 {
+    font-size: 500;
+}*/
+
+footer i {
+    color: white;
+    font-size: 30px;
+}
